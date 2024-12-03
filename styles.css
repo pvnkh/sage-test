@@ -10,8 +10,16 @@ body {
 
 .container {
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.project-info, .contact {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
 }
